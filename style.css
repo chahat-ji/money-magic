@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+body{
+    background-color: rgb(242, 242, 242);
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    justify-content: center;
+}
+
+.nav h1{
+    padding: 5px;
+    color: aliceblue;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252, 201, 0);
+}
+
+.cart{
+    display: flex;
+    width: 500px;
+    height: 140px;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 20px;
+    
+}
+
+.cart .box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100px;
+}
+
+.cart img{
+   width: 20px;
+   border-radius: 5px;
+}
+
+.profile{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.profile img{
+    width: 120px;
+    height: auto;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.profile .detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile .namebox h2{
+    display: inline-block;
+    margin-top: 5px;
+    color: rgb(53, 53, 152);
+}
+
+.profile .moneybox h2{
+    display: inline-block;
+    margin-top: 5px;
+    color: rgb(3, 127, 3);
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+}
+
+.product-container{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: auto;
+    border: solid 1px #0000004b;
+    box-shadow: 0px 3px 9px 0px #00000021;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.product-container img{
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-container .product-name{
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.product-container .product-price{
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: larger;
+    color: rgb(7, 141, 7);
+}
+
+.product-container .btn{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    width: 120px;
+    font-size: 12px;
+    gap: 10px;
+}
+.product-container .btn div{
+    border-radius: 3px;
+    padding: 6px 16px;
+    cursor: pointer;
+}
+.product-container .btn .buy{
+    background-color: rgb(0, 160, 0);
+}
+
+.product-container .btn .sell{
+    background-color: rgb(172, 7, 7);
+}
+
+.btn .buy:active{
+    transform: scale(0.9);
+}.btn .sell:active{
+    transform: scale(0.9);
+}
