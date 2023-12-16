@@ -1,5 +1,5 @@
 let paisa = 18499260000000;
-document.getElementById("money").innerHTML = paisa;
+document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');;
 
 let iphone = 0;
 let fortuner = 0;
@@ -13,7 +13,7 @@ let mla = 0;
 let antilia = 0;
 
 const buySound = new Audio();
-buySound.src ="./resources/MONEY SOUND EFFECT .mp3";
+buySound.src ="./resources/mouse-click-153941.mp3";
 
 
 
@@ -24,12 +24,10 @@ function buyIphone(){
           return;
      }
      paisa -= 180000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      iphone++;
-     document.getElementById("iphone-num").innerHTML = iphone;
-     let audio = document.getElementById("sound");
-     audio.play();
+     document.getElementById("iphone-num").innerHTML = iphone.toLocaleString('en-IN');
 }
 function sellIphone(){
      buySound.play();
@@ -38,10 +36,10 @@ function sellIphone(){
           return;
      }
      paisa += 180000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      iphone--;
-     document.getElementById("iphone-num").innerHTML = iphone;
+     document.getElementById("iphone-num").innerHTML = iphone.toLocaleString('en-IN');
 }
 
 
@@ -52,10 +50,10 @@ function buyfortuner(){
           return;
      }
      paisa -= 6000000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      fortuner++;
-     document.getElementById("fortuner-num").innerHTML = fortuner;
+     document.getElementById("fortuner-num").innerHTML = fortuner.toLocaleString('en-IN');
 }
 function sellFortuner(){
      buySound.play();
@@ -64,10 +62,10 @@ function sellFortuner(){
           return;
      }
      paisa += 6000000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      fortuner--;
-     document.getElementById("fortuner-num").innerHTML = fortuner;
+     document.getElementById("fortuner-num").innerHTML = fortuner.toLocaleString('en-IN');
 }
 
 
@@ -78,10 +76,10 @@ function buyNinja(){
           return;
      }
      paisa += 1200000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      ninja++;
-     document.getElementById("ninja-num").innerHTML = ninja;
+     document.getElementById("ninja-num").innerHTML = ninja.toLocaleString('en-IN');
 }
 function sellNinja(){
      buySound.play();
@@ -90,10 +88,10 @@ function sellNinja(){
           return;
      }
      paisa -= 1200000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      ninja--;
-     document.getElementById("ninja-num").innerHTML = ninja;
+     document.getElementById("ninja-num").innerHTML = ninja.toLocaleString('en-IN');
 }
 
 
@@ -104,10 +102,10 @@ function buyIpl(){
           return;
      }
      paisa += 6915452100;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      ipl++;
-     document.getElementById("ipl-num").innerHTML = ipl;
+     document.getElementById("ipl-num").innerHTML = ipl.toLocaleString('en-IN');
 }
 function sellIpl(){
      buySound.play();
@@ -116,10 +114,10 @@ function sellIpl(){
           return;
      }
      paisa -= 6915452100;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      ipl--;
-     document.getElementById("ipl-num").innerHTML = ipl;
+     document.getElementById("ipl-num").innerHTML = ipl.toLocaleString('en-IN');
 }
 
 
@@ -130,10 +128,10 @@ function buyRolls(){
           return;
      }
      paisa += 32400000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      rolls++;
-     document.getElementById("rolls-num").innerHTML = rolls;
+     document.getElementById("rolls-num").innerHTML = rolls.toLocaleString('en-IN');
 }
 function sellRolls(){
      buySound.play();
@@ -142,10 +140,10 @@ function sellRolls(){
           return;
      }
      paisa -= 32400000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      rolls--;
-     document.getElementById("rolls-num").innerHTML = rolls;
+     document.getElementById("rolls-num").innerHTML = rolls.toLocaleString('en-IN');
 }
 
 
@@ -156,10 +154,10 @@ function buyPent(){
           return;
      }
      paisa += 123000000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      pent++;
-     document.getElementById("pent-num").innerHTML = pent;
+     document.getElementById("pent-num").innerHTML = pent.toLocaleString('en-IN');
 }
 function sellPent(){
      buySound.play();
@@ -168,10 +166,10 @@ function sellPent(){
           return;
      }
      paisa -= 123000000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      pent--;
-     document.getElementById("pent-num").innerHTML = pent;
+     document.getElementById("pent-num").innerHTML = pent.toLocaleString('en-IN');
 }
 
 
@@ -182,10 +180,10 @@ function buyRolex(){
           return;
      }
      paisa += 2420000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      rolex++;
-     document.getElementById("rolex-num").innerHTML = rolex;
+     document.getElementById("rolex-num").innerHTML = rolex.toLocaleString('en-IN');
 }
 function sellRolex(){
      buySound.play();
@@ -194,10 +192,10 @@ function sellRolex(){
           return;
      }
      paisa -= 2420000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      rolex--;
-     document.getElementById("rolex-num").innerHTML = rolex;
+     document.getElementById("rolex-num").innerHTML = rolex.toLocaleString('en-IN');
 }
 
 
@@ -208,10 +206,10 @@ function buyPc(){
           return;
      }
      paisa += 640000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      pc++;
-     document.getElementById("gaming-num").innerHTML = pc;
+     document.getElementById("gaming-num").innerHTML = pc.toLocaleString('en-IN');
 }
 function sellPc(){
      buySound.play();
@@ -220,10 +218,10 @@ function sellPc(){
           return;
      }
      paisa -= 640000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      pc--;
-     document.getElementById("gaming-num").innerHTML = pc;
+     document.getElementById("gaming-num").innerHTML = pc.toLocaleString('en-IN');
 }
 
 
@@ -234,10 +232,10 @@ function buyMla(){
           return;
      }
      paisa += 500000000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      mla++;
-     document.getElementById("mla-num").innerHTML = mla;
+     document.getElementById("mla-num").innerHTML = mla.toLocaleString('en-IN');
 }
 function sellMla(){
      buySound.play();
@@ -246,10 +244,10 @@ function sellMla(){
           return;
      }
      paisa -= 500000000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      mla--;
-     document.getElementById("mla-num").innerHTML = mla;
+     document.getElementById("mla-num").innerHTML = mla.toLocaleString('en-IN');
 }
 
 
@@ -260,10 +258,10 @@ function buyAntilia(){
           return;
      }
      paisa -= 120000000000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      antilia++;
-     document.getElementById("antilia-num").innerHTML = antilia;
+     document.getElementById("antilia-num").innerHTML = antilia.toLocaleString('en-IN');
 }
 function sellAntilia(){
      buySound.play();
@@ -272,10 +270,10 @@ function sellAntilia(){
           return;
      }
      paisa += 120000000000;
-     document.getElementById("money").innerHTML = paisa;
+     document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
 
      antilia--;
-     document.getElementById("antilia-num").innerHTML = antilia;
+     document.getElementById("antilia-num").innerHTML = antilia.toLocaleString('en-IN');
 }
 
 

@@ -122,7 +122,7 @@ body{
 .product-container .product-price{
     margin-bottom: 2px;
     font-weight: 600;
-    font-size: larger;
+    font-size: 18px;
     color: rgb(7, 141, 7);
 }
 
