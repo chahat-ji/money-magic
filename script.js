@@ -28,12 +28,16 @@ function buyIphone(){
 
      iphone++;
      document.getElementById("iphone-num").innerHTML = iphone.toLocaleString('en-IN');
+     document.getElementById("iphone-num").parentElement.style.display = "flex";
 }
 function sellIphone(){
      buySound.play();
      if(iphone ==0){
           alert("First Buy It");
           return;
+     }
+     if(iphone ==1){
+          document.getElementById("iphone-num").parentElement.style.display = "none";
      }
      paisa += 180000;
      document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
@@ -54,12 +58,19 @@ function buyfortuner(){
 
      fortuner++;
      document.getElementById("fortuner-num").innerHTML = fortuner.toLocaleString('en-IN');
+
+     document.getElementById("fortuner-num").parentElement.style.display = "flex";
+    
 }
 function sellFortuner(){
      buySound.play();
      if(fortuner ==0){
           alert("First Buy It");
           return;
+     }
+
+     if(fortuner ==1){
+          document.getElementById("fortuner-num").parentElement.style.display = "none";
      }
      paisa += 6000000;
      document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
@@ -80,12 +91,18 @@ function buyNinja(){
 
      ninja++;
      document.getElementById("ninja-num").innerHTML = ninja.toLocaleString('en-IN');
+
+     document.getElementById("ninja-num").parentElement.style.display = "flex";
+     
 }
 function sellNinja(){
      buySound.play();
      if(ninja ==0){
           alert("First Buy It");
           return;
+     }
+     if(ninja ==1){
+          document.getElementById("ninja-num").parentElement.style.display = "none";
      }
      paisa -= 1200000;
      document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
@@ -106,12 +123,17 @@ function buyIpl(){
 
      ipl++;
      document.getElementById("ipl-num").innerHTML = ipl.toLocaleString('en-IN');
+
+     document.getElementById("ipl-num").parentElement.style.display = "flex";
 }
 function sellIpl(){
      buySound.play();
      if(ipl ==0){
           alert("First Buy It");
           return;
+     }
+     if(ipl ==1){
+          document.getElementById("ipl-num").parentElement.style.display = "none";
      }
      paisa -= 6915452100;
      document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
@@ -132,12 +154,17 @@ function buyRolls(){
 
      rolls++;
      document.getElementById("rolls-num").innerHTML = rolls.toLocaleString('en-IN');
+
+     document.getElementById("rolls-num").parentElement.style.display = "flex";
 }
 function sellRolls(){
      buySound.play();
      if(rolls ==0){
           alert("First Buy It");
           return;
+     }
+     if(rolls ==1){
+          document.getElementById("rolls-num").parentElement.style.display = "none";
      }
      paisa -= 32400000;
      document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
@@ -158,12 +185,17 @@ function buyPent(){
 
      pent++;
      document.getElementById("pent-num").innerHTML = pent.toLocaleString('en-IN');
+
+     document.getElementById("pent-num").parentElement.style.display = "flex";
 }
 function sellPent(){
      buySound.play();
      if(pent ==0){
           alert("First Buy It");
           return;
+     }
+     if(pent ==1){
+          document.getElementById("pent-num").parentElement.style.display = "none";
      }
      paisa -= 123000000;
      document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
@@ -184,12 +216,17 @@ function buyRolex(){
 
      rolex++;
      document.getElementById("rolex-num").innerHTML = rolex.toLocaleString('en-IN');
+
+     document.getElementById("rolex-num").parentElement.style.display = "flex";
 }
 function sellRolex(){
      buySound.play();
      if(rolex ==0){
           alert("First Buy It");
           return;
+     }
+     if(rolex ==1){
+          document.getElementById("rolex-num").parentElement.style.display = "none";
      }
      paisa -= 2420000;
      document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
@@ -210,12 +247,17 @@ function buyPc(){
 
      pc++;
      document.getElementById("gaming-num").innerHTML = pc.toLocaleString('en-IN');
+
+     document.getElementById("gaming-num").parentElement.style.display = "flex";
 }
 function sellPc(){
      buySound.play();
      if(pc ==0){
           alert("First Buy It");
           return;
+     }
+     if(pc ==1){
+          document.getElementById("gaming-num").parentElement.style.display = "none";
      }
      paisa -= 640000;
      document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
@@ -236,12 +278,17 @@ function buyMla(){
 
      mla++;
      document.getElementById("mla-num").innerHTML = mla.toLocaleString('en-IN');
+
+     document.getElementById("mla-num").parentElement.style.display = "flex";
 }
 function sellMla(){
      buySound.play();
      if(mla ==0){
           alert("First Buy It");
           return;
+     }
+     if(mla ==1){
+          document.getElementById("mla-num").parentElement.style.display = "none";
      }
      paisa -= 500000000;
      document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
@@ -262,12 +309,17 @@ function buyAntilia(){
 
      antilia++;
      document.getElementById("antilia-num").innerHTML = antilia.toLocaleString('en-IN');
+
+     document.getElementById("antilia-num").parentElement.style.display = "flex";
 }
 function sellAntilia(){
      buySound.play();
      if(antilia ==0){
           alert("First Buy It");
           return;
+     }
+     if(antilia ==1){
+          document.getElementById("antilia-num").parentElement.style.display = "none";
      }
      paisa += 120000000000;
      document.getElementById("money").innerHTML = paisa.toLocaleString('en-IN');
